@@ -1,0 +1,23 @@
+---
+- hosts: test1
+  vars:
+    http_port: 80
+    max_clients: 200
+  remote_user: colony
+  sudo: yes
+  tasks:
+  - name: ensure nginx is stopped and disable
+    service:
+      name: nginx
+      state: stopped
+      enabled: false
+  - name: ensure php-fpm is stopped and disable
+    service:
+      name: php-fpm
+      state: stopped
+      enabled: false
+  - name: ensure mysqld is stopped and disable
+    service:
+      name: mysqld
+      state: stopped
+      enabled: false

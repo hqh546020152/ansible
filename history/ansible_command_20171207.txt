@@ -1,25 +1,15 @@
 ***************************分割线***************************
-Wed Dec  6 08:49:58 CST 2017
+Thu Dec  7 01:19:58 CST 2017
 test
 date
 10.10.0.254 | SUCCESS | rc=0 >>
-Wed Dec  6 08:49:57 CST 2017
+Thu Dec  7 01:19:58 CST 2017
 10.10.0.241 | SUCCESS | rc=0 >>
-Wed Dec  6 08:50:34 CST 2017
+Thu Dec  7 01:19:55 CST 2017
 ***************************分割线***************************
-Wed Dec  6 08:50:03 CST 2017
+Thu Dec  7 01:20:22 CST 2017
 test
 netstat -lntp
-10.10.0.254 | SUCCESS | rc=0 >>
-Active Internet connections (only servers)
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
-tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -                   
-tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      -                   
-tcp        0      0 0.0.0.0:51804           0.0.0.0:*               LISTEN      -                   
-tcp6       0      0 :::111                  :::*                    LISTEN      -                   
-tcp6       0      0 ::1:25                  :::*                    LISTEN      -                   
-tcp6       0      0 :::51804                :::*                    LISTEN      -                   (Not all processes could be identified, non-owned process info
- will not be shown, you would have to be root to see it all.)
 10.10.0.241 | SUCCESS | rc=0 >>
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
@@ -30,39 +20,13 @@ tcp6       0      0 :::111                  :::*                    LISTEN      
 tcp6       0      0 ::1:25                  :::*                    LISTEN      -                   
 tcp6       0      0 :::51804                :::*                    LISTEN      -                   (Not all processes could be identified, non-owned process info
  will not be shown, you would have to be root to see it all.)
-***************************分割线***************************
-Wed Dec  6 09:06:24 CST 2017
-test
-ls -ls /tmp
-10.10.0.241 | SUCCESS | rc=0 >>
-total 4
-4 drwx------ 2 colony colony 4096 Dec  6 09:07 ansible_slbjLc
 10.10.0.254 | SUCCESS | rc=0 >>
-total 4
-4 drwx------ 2 colony colony 4096 Dec  6 09:06 ansible_fIoC_Z
-***************************分割线***************************
-Wed Dec  6 09:11:58 CST 2017
-test
-cat /etc/redhat-release
-10.10.0.241 | SUCCESS | rc=0 >>
-CentOS Linux release 7.4.1708 (Core) 
-10.10.0.254 | SUCCESS | rc=0 >>
-CentOS Linux release 7.4.1708 (Core) 
-***************************分割线***************************
-Wed Dec  6 09:12:29 CST 2017
-test
-ping -c 1 baidu.com
-10.10.0.254 | SUCCESS | rc=0 >>
-PING baidu.com (111.13.101.208) 56(84) bytes of data.
-64 bytes from 111.13.101.208 (111.13.101.208): icmp_seq=1 ttl=44 time=42.2 ms
-
---- baidu.com ping statistics ---
-1 packets transmitted, 1 received, 0% packet loss, time 0ms
-rtt min/avg/max/mdev = 42.253/42.253/42.253/0.000 ms
-10.10.0.241 | SUCCESS | rc=0 >>
-PING baidu.com (111.13.101.208) 56(84) bytes of data.
-64 bytes from 111.13.101.208 (111.13.101.208): icmp_seq=1 ttl=44 time=40.0 ms
-
---- baidu.com ping statistics ---
-1 packets transmitted, 1 received, 0% packet loss, time 0ms
-rtt min/avg/max/mdev = 40.026/40.026/40.026/0.000 ms
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:51804           0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::111                  :::*                    LISTEN      -                   
+tcp6       0      0 ::1:25                  :::*                    LISTEN      -                   
+tcp6       0      0 :::51804                :::*                    LISTEN      -                   (Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
