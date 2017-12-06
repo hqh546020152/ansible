@@ -1,0 +1,6 @@
+10.10.0.241 | SUCCESS | rc=0 >>
+total 4
+4 drwx------ 2 colony colony 4096 Dec  6 09:07 ansible_slbjLc
+10.10.0.254 | SUCCESS | rc=0 >>
+total 4
+4 drwx------ 2 colony colony 4096 Dec  6 09:06 ansible_fIoC_Z
